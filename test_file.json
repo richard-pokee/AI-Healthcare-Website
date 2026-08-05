@@ -1,0 +1,62 @@
+[
+  {
+    "api": "check_ci_status_on_github_pull_request",
+    "status": "success",
+    "summary": "API callable. Returned error as expected: PR #1 not found in richard-pokee/AI-Healthcare-Website (no PRs exist in this repo)."
+  },
+  {
+    "api": "blame_github_file",
+    "status": "success",
+    "summary": "API callable. Returned blame data for README.md: 2 total lines, 1 blame range by richard-pokee (commit 0cec333, 'Initial commit', 2025-04-30)."
+  },
+  {
+    "api": "list_github_discussion_comments",
+    "status": "success",
+    "summary": "API callable. Returned error as expected: Could not resolve to a Discussion with the number of 1 (no discussions exist in this repo)."
+  },
+  {
+    "api": "compare_github_repository_branches_or_commits",
+    "status": "success",
+    "summary": "API callable (corrected param names: github_base_branch_or_commit, github_head_branch_or_commit). Compared main vs main: 0 commits, 0 files changed, 0 additions, 0 deletions."
+  },
+  {
+    "api": "get_github_commit_diff",
+    "status": "success",
+    "summary": "API callable. Returned diff for commit 84ec59d: 'Create index.html for AI in Healthcare webpage', 858 additions, 0 deletions, 1 file changed (index.html)."
+  },
+  {
+    "api": "list_github_repository_pull_requests",
+    "status": "success",
+    "summary": "API callable. Returned empty list as expected: No pull requests found for this repository."
+  },
+  {
+    "api": "list_github_pull_request_reviews",
+    "status": "success",
+    "summary": "API callable. Returned error as expected: HTTP 404 Not Found (no PR #1 exists in this repo)."
+  },
+  {
+    "api": "list_github_review_threads",
+    "status": "success",
+    "summary": "API callable. Returned error as expected: Could not resolve to a PullRequest with the number of 1 (no PRs exist)."
+  },
+  {
+    "api": "list_github_repository_issues",
+    "status": "success",
+    "summary": "API callable. Returned empty list as expected: No issues found in this repository."
+  },
+  {
+    "api": "list_github_milestones",
+    "status": "success",
+    "summary": "API callable. Returned empty list as expected: No milestones found for this repository."
+  },
+  {
+    "api": "list_github_pull_request_issue_comments",
+    "status": "success",
+    "summary": "API callable. Returned error as expected: HTTP 404 Not Found (no issue #1 exists in this repo)."
+  },
+  {
+    "api": "list_github_pull_request_comments",
+    "status": "success",
+    "summary": "API callable (corrected param name: github_pull_number). Returned error as expected: HTTP 404 Not Found (no PR #1 exists)."
+  }
+]
